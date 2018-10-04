@@ -8,9 +8,9 @@
 (function(PLUGIN_ID) {
     'use strict';
 
-    // Get plugin configuration settings
+    // Get plug-in configuration settings
     var CONFIG = kintone.plugin.app.getConfig(PLUGIN_ID);
-    // Get each settings
+    // Get each setting
     if (!CONFIG) {
         return false;
     }
@@ -39,7 +39,7 @@
             });
         }
 
-        // Create query based on the Filter settings for the related records field
+        // Create query based on the filter settings for the related records field
         var keyValue = event.record[FETCH_CRITERIA_A].value;
         var opt_Field = FETCH_CRITERIA_B + '=' + '"' + keyValue + '"';
 
