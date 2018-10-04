@@ -19,7 +19,7 @@ jQuery.noConflict();
             .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     }
     function setDropDownForSpace(rows) {
-        // Get each field information
+        // Get information of each field
         for (var i = 0; i < rows.length; i++) {
             var fields = rows[i];
             for (var cnt = 0; cnt < fields.length; cnt++) {
@@ -109,7 +109,7 @@ jQuery.noConflict();
             var relatedRecords = $('#select_related_records_field').val();
             var space = $('#select_number_space_field').val();
 
-            // Check requred fields
+            // Check required fields
             if (relatedRecords === '' || space === '') {
                 alert('Please set required field(s)');
                 return;
