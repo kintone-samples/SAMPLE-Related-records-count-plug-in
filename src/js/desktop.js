@@ -49,7 +49,7 @@
             var divTotalAmount = document.createElement('div');
             divTotalAmount.style.textAlign = 'center';
             divTotalAmount.style.fontSize = '16px';
-            divTotalAmount.innerHTML = String(num) + ' related sale(s)';
+            divTotalAmount.innerHTML = String(num) + ' related record(s)';
             kintone.app.record.getSpaceElement(CONFIG_SPACE).appendChild(divTotalAmount);
             return event;
         });
