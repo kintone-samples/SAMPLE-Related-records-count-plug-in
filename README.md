@@ -35,7 +35,7 @@ Reference: https://get.kintone.help/hc/en-us/articles/115001519707-Installing-Vi
 3. Add the plug-in to a specific Kintone App  
 Reference: https://get.kintone.help/hc/en-us/articles/115001511188-Adding-Plug-ins-to-an-App
 4. Make sure that a Related Records field and a Blank Space field (with an Element ID set up) are placed in the form of your Kintone App. Access the plug-in settings, and set up the neccessary settings. Save the settings, and update the App.
-5. Click the + button on the Record List page to start adding a new record. If there are Related Records available, the number of fetched Related Records will be displayed in the Blank Space field.
+5. Click the + button on the Record List page to start adding a new record. After saving the record, if there are Related Records available, the number of fetched Related Records will be displayed in the Blank Space field.
 
 ## How to modify
 1. Fork to your repo
